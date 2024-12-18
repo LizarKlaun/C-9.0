@@ -52,4 +52,7 @@ int main()
     obj = new Camerafone();
     obj->Info();
     obj->Behavior();
+
+    delete obj;
+    obj = nullptr;
 }
